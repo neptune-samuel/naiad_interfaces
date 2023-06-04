@@ -1,0 +1,6 @@
+uint8   mark_type
+float32   mark_x
+float32   mark_y
+float32   mark_z
+---
+bool    res

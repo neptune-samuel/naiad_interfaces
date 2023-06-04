@@ -1,0 +1,6 @@
+uint8   task_type  # 0 无任务  1 自检任务 2 调整姿态任务  3 自动检测任务 4 自动清洗任务
+float32 length
+float32 width
+float32 height
+---
+bool res

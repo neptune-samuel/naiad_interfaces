@@ -1,0 +1,5 @@
+#request
+bool ins_reset
+---
+bool  res        #false: 失败 true: 成功
+uint8 error_code # 失败类型

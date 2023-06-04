@@ -1,0 +1,10 @@
+uint8      task_type
+float32    task_region_length
+float32    task_region_width
+---
+uint8      task_result 
+uint8      error_code 
+---
+uint8      task_status # 任务进行中.........
+float32    mileage # 运动里程
+#TODO......................
