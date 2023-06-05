@@ -21,9 +21,10 @@ endif()
 include(${RULES_DIR}/ws_common.cmake)
 
 ## 自动添加文件
-file(GLOB MSG_FILES msg/*.msg)
-file(GLOB SRV_FILES srv/*.srv)
-file(GLOB ACTION_FILES action/*.action)
+#file(GLOB MSG_FILES msg/*.msg)
+file(GLOB MSG_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/ msg/*.msg)
+file(GLOB SRV_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/ srv/*.srv)
+file(GLOB ACTION_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/ action/*.action)
 
 message(STATUS "MSG_FILES=${MSG_FILES}")
 message(STATUS "SRV_FILES=${SRV_FILES}")
