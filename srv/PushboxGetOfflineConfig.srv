@@ -1,0 +1,7 @@
+## 顶出离线控制
+uint8 address    # 顶出设备地址
+---
+bool status      # 操作结果  true - 成功 false - 失败 
+string detail    # 更详细的错误信息等
+bool  enable     # 是否开启离线顶出
+uint16 minute    # 离线顶出延时时间，单位为分钟 1-60分钟

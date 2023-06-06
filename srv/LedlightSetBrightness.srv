@@ -1,0 +1,6 @@
+## 设置LED的亮度
+uint8 address      # LED照相地址
+uint8 brightness   # LED亮度  0 - 100
+---
+bool status      # 操作结果  true - 成功 false - 失败 
+string detail    # 更详细的错误信息等
