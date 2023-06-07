@@ -1,6 +1,9 @@
 # 电源盒的状态
 std_msgs/Header header
 DeviceId   device_id            # 设备标识  see DeviceId.msg   
+uint16 state                    # 设备告警状态
+float32 temperature             # 温度
+float32 humidity                # 湿度
 float32 total_voltage           # 总电压   
 float32 total_current           # 总电流
 float32 main_in_voltage         # 主电源输入电压
