@@ -3,4 +3,4 @@ uint8 address   # 升降器地址
 uint8 position   # 升降器位置  0 - 100
 ---
 bool status      # 操作结果  true - 成功 false - 失败 
-string detail    # 更详细的错误信息等
+string status_info    # 更详细的错误信息等

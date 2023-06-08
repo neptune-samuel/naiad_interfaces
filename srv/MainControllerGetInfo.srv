@@ -1,0 +1,5 @@
+## 主控信息获取服务
+---
+bool status      # 操作结果  true - 成功 false - 失败 
+string status_info    # 更详细的错误信息等
+MainControllerInfo controller  # 主控状态
