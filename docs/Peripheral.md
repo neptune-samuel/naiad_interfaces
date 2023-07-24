@@ -1,7 +1,7 @@
 
 ### 外围设备
 
-外围设备使用关健字 "name"和"address" 确定唯一的设备实例，消息中定义DeviceId.msg
+外围设备使用关健字 "name"和"index" 确定唯一的设备实例，消息中定义DeviceId.msg
 
 #### TOPIC
 
