@@ -1,0 +1,6 @@
+## 获取设备信息
+uint8  index          # 设备索引 
+---
+bool status           # 操作结果  true - 成功 false - 失败 
+string status_info    # 更详细的错误信息等
+DeviceInfo info       # 设备信息
